@@ -12,7 +12,7 @@ app.get('/', function(req, res) {
 
 app.post('/', function(req, res) {
     var jscode = req.body.jscode;
-    jscode = jscode.replace("/aes.js", "https://pastebin.com/raw/pKrFHFzf");
+    jscode = jscode.replace("/aes.js", "https://pastebin.com/raw/ATqu3bxs");
     jscode = jscode.replace("location.href", "var uselessvar12345");
     jscode = new JSDOM(jscode, { runScripts: "dangerously", resources: "usable" });
     setTimeout(function() {
