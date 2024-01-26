@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "^4.16.4",
     "body-parser": "^1.18.3",
-    "jsdom": "^13.2.0"
+    "jsdom": "^15.2.0"
   },
   "engines": {
     "node": "8.x"
